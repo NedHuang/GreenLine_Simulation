@@ -1,0 +1,26 @@
+# GreenLineSimulation
+Discrete event simulation of the Minneapolis Green Line project made by 
+Mingzhe Huang, 4944090 and Yiding Weng, 4464621
+How to compile:
+    ./compile.sh
+How to test:
+    ./test.sh <num of trains> <num of train cars> <inter-arrival time>
+such as:
+    ./test.sh 20 3 30
+
+
+After type test.sh, vim will open output file. You can browse output contents by click j, k, h, l. The output file will be renewed for each run. 
+If you does not like open with vim, you can change the last line in "test.sh".
+The possible editor is emacs, cat, more, less
+
+The write-up is available in both PDF and doc. If it is possible please judge the word version. Some data in the table cannot be shown in PDF. Sorry about the inconvenience. 
+There is another excel file creates tables and graphs for analyzing the data. The number of average passenger waiting on platform is rounded to integer.
+
+All raw output data for each simulation are saved in name of
+ “num of train” “num of cars” “inter-arrival rate”
+
+The information of each passenger could also be checked in these file. But it is not concluded in write-up report.
+
+Thanks
+
+Mingzhe Huang and Yiding Weng
